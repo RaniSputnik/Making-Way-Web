@@ -1,0 +1,26 @@
+
+#desktop-header {
+	position: relative;
+	overflow: hidden;
+}
+
+#kids-wrapper {
+	position: absolute;
+	left:0; bottom: -60px; right: 0;
+	transition: bottom 0.3s ease-out 0.5s;
+	-webkit-transition: bottom 0.3s ease-out 0.5s;
+}
+
+#kids-wrapper.hidden {
+	bottom: -300px;
+	transition-delay: 0;
+	-webkit-transition-delay: 0;
+}
+
+#kids-wrapper > div:first-child {
+	bottom: -13px;
+}
+#kids-wrapper > div:nth-child(2) {
+	bottom: -32px;
+	left: -68px;
+}

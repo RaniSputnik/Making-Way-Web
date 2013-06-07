@@ -1,0 +1,95 @@
+@font-face {
+	font-family: KBWiggleWorm;
+	src: url('../fnt/KBWiggleWorm.ttf');
+}
+@font-face {
+	font-family: PastelCrayon;
+	src: url('../fnt/PastelCrayon.ttf');
+}
+
+
+body {
+	background: url('../img/paper-bg.png') repeat;
+	background-attachment:fixed;
+}
+
+body, h1,h2,h3,h4,h5,h6, p,ul,ol {
+	font-family: PastelCrayon;
+}
+small {
+	font-size: 80%;
+}
+
+#content-wrapper {
+	width: 100%;
+	max-width: 62.5em;
+	margin: auto;
+	/*background: url('../img/colourful-bg.jpg') repeat;*/
+}
+
+#lower-wrapper {
+	background: #fff;
+}
+
+#featured img {
+	max-width: none;
+	width: 100%;
+}
+
+.panel {
+	/*background: url('../img/paper-lighter-bg.png') repeat;*/
+	/*background: url('../img/book-bg.png') repeat;*/
+}
+
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.circle {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	margin-bottom: 1em;
+}
+
+.dashed {
+	border: dashed 2px #333;
+}
+a .dashed, a.dashed {
+	border: dashed 2px rgba(0,0,0,0);
+	transition: border-color 0.1s;
+	-webkit-transition: border-color 0.1s;	
+}
+a .dashed:hover, a.dashed:hover {
+	border-color: #333;
+}
+
+.circle.bg {
+	background-color: #ccc;
+}
+.bg-blue {
+	background-color: #427fed;
+}
+.bg-yellow {
+	background-color: #f4b400;
+}
+
+
+
+#promo {
+	position: absolute;
+	bottom: 8px;
+	right: 96px;
+	padding: 3px;
+	z-index: 30;
+}
+#promo > div {
+	margin: 8px;
+}
+#promo img {
+	width: 200px;
+	height: auto;	
+}
+#chrome-img {
+	background: #fff;
+}
